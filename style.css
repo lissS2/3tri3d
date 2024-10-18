@@ -12,3 +12,8 @@ body{
     color: var(--cor-texto);
     font-family: var(--font);
 }
+
+header{
+    background-color: var(--cor-fundo);
+    text-align: center;
+}
