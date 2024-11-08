@@ -11,10 +11,13 @@ body{
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
     font-family: var(--font);
+    height: 100vh;
+    margin: 0;
 }
 header{
     background-color: var(--cor-subtitulo);
     text-align: center;
+    padding: 1px;
 }
 h1{
     font-size: 2rem;
@@ -31,6 +34,24 @@ nav a{
     color: var(--cor-fundo);
     margin: 0 2rem 1rem 0;
     font-size: 1.2rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+.graficos-container{
+    margin: 5rem;
+}
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-subtitulo) solid 2px;
+}
+span{
+    font-weight: bold;
+    color: var(--cor-subtitulo);
 }
 footer{
     display: flex;
